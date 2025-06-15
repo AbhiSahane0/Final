@@ -1,0 +1,229 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt]{report}	%Doccument Class Specification
+
+\setlength{\textwidth}{6.25in} % original 6.25 %Text Lenght SetUp
+\setlength{\textheight}{8in}
+
+\renewcommand{\baselinestretch}{1.3}	%Page Margin SetUp
+\oddsidemargin 20pt    %  Left margin on odd-numbered pages.
+\evensidemargin 20pt   %  Note that \oddsidemargin = \evensidemargin
+\topmargin 0pt
+\newcommand{\squeezeup}{\vspace{-0.6cm}}
+%\renewcommand{\tableofcontents}{INDEX} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Define Packages
+\usepackage {graphics}
+\usepackage {epsfig}
+\usepackage{listing}
+\usepackage {graphicx}
+\usepackage{titlesec}
+\usepackage{url}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{fancybox}
+\usepackage{xcolor}
+\usepackage[left=3.81cm,top=2.54cm,right=2.54cm,bottom=3.175cm]{geometry}
+%\usepackage{pdfpages}
+\usepackage[font=normalsize,labelfont=bf]{caption}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Change Font Size Of Titles
+\titleformat{\chapter}[display]
+  {\normalfont\large\bfseries\centering}{\chaptertitlename\ \thechapter}{14pt}{\large}
+\titleformat{\section}{\normalsize \bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize \bfseries}{\thesubsection}{1em}{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Begin document "environment".
+
+\begin{document} % Begin document "environment".
+ \pagenumbering{gobble}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title Page of Synopsis %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+ \begin{center}
+{\large \bf{  AMRUTVAHINI COLLEGE OF ENGINEERING, SANGAMNER}}\\ 
+		\begin{small}
+		{ \bf DEPARTMENT OF COMPUTER ENGINEERING}\\ 
+		\end{small}
+		\small{\bf{2024-2025}}\\
+%===============================================     
+        {\large \bf {Project Synopsis  }} \\
+        {\large \bf {on  }} \\
+        
+\large {\bf ``BlockShare - Blockchain Based Secure Data Sharing Platform"}
+       % {\large \bf {"Fuzzy Logic Predictive Algorithm for Wireless-LAN Fast Inter-Cell Handoff"}} \\\\
+       \end{center}
+%-----------------------------------------------
+       \begin{center}
+\includegraphics[scale=0.5]{AVCOE_LOGO.png} 
+\end{center}
+
+%-----------------------------------------------
+{\begin{center}
+\bf {BE Computer Engineering}\\
+BY
+\end{center}
+%-----------------------------------------------
+{\begin{center}
+\textbf{Group Id- B-06}\\
+\textbf{Mr. Abhijit Rajaram Sahane (4228)}\\
+\textbf{Mr. Shinde Rohit Nivruti (4240)}\\
+\textbf{Mr. Sayyad Mohammadsaani Shahid (4234)}\\
+\end{center}
+
+%-----------------------------------------------
+
+\vspace*{0.6in}
+\hspace*{0.0in}Ms. K. U. Rahane \hspace{1.7in} Dr. D. R. Patil/ Dr. R. G. Tambe\\
+\hspace*{0.3in} \textbf{Project Guide} \hspace{2.3in} \textbf{Project Coordinator}\\
+Dept. of Computer Engineering \hspace{1.2in} Dept. of Computer Engineering\\
+\\
+\\
+\\
+\hspace*{2.3in}Dr. S. K. Sonkar\\
+\hspace*{2.7in} \textbf{H.O.D}\\
+\hspace*{1.9in}Dept. of Computer Engineering 
+\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Contents of Synopsis %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\pagenumbering{arabic} 
+
+\begin{itemize}
+
+\item{\textbf{Title:}} BlockShare - Blockchain Based Secure Data Sharing Platform.
+\item{\textbf{Domain and Sub-domain:}} 
+Security and Blockchain.
+\item{\textbf{Objectives:}}
+\begin{enumerate}
+\item{To understand the basics of blockchain and how blockchain works.}
+\item{To understand the security concepts related with blockchain.}
+\item{To implement smart contracts to automate and secure data access control.}
+\item{To create a decentralized system to eliminate the need for a central authority.
+\item{To develop a secure data sharing platform utilizing blockchain technology.}
+}
+\end{enumerate}
+
+\item{\textbf{Abstract:}}
+\newline
+In today's digital age, data sharing over the internet is very common and very popular. However, traditional centralized data platforms face significant challenges, including data privacy and security, high transaction costs, and lack of compatibility. Introducing blockchain technology into this domain can effectively solve these issues. Blockchain's system eliminates the need for middlemen, which cuts down on fees and speeds up transactions. Additionally, the blockchain based data sharing platform will offer robust decentralized data storage and exchange mechanisms, comprehensive access control, and reliable identity authentication, making it a revolutionary solution for secure and efficient data sharing.
+
+
+\item{\textbf{Keywords:}}
+\newline
+Blockchain; Data Sharing; Data Security; Cryptography; Decentralization; Smart Contracts; Secure Communication; Peer-to-Peer; Distributed Ledger.
+
+\item{\textbf{Problem Definition:}}
+\newline
+In the digital age, the security and privacy of shared data has become a concerns. Traditional data sharing systems often rely on centralized servers, which are susceptible to hacking, data breaches, and unauthorized access. This project aims to develop a blockchain-based secure data sharing platform that leverages the decentralized nature of blockchain technology to enhance data security and privacy.
+
+\item{\textbf{List of Modules:}}
+\begin{enumerate}
+\item{User Interface Development}
+\item{User Registration and Authentication}
+\item{Data Encryption and Storage}
+\item{Smart Contract Integration}
+\item{Data Sharing and Retrieval}
+\end{enumerate}
+
+\item{\textbf{Current Market Survey:}}
+\newline
+The current market for data sharing platforms is dominated by centralized systems, which pose significant security risks. Numerous data breaches and unauthorized access incidents have highlighted the vulnerabilities of these systems. Blockchain technology, with its decentralized and immutable nature, offers a promising solution to these issues. However, there is a need for platforms specifically addressing data sharing security and privacy concerns ,Blockchain will be a great alternative for this problem.
+
+\item{\textbf{Scope of the Project:}}
+\newline
+Developing a secure data sharing platform based on blockchain technology. The platform will support secure data storage, sharing, and access control through decentralized mechanisms. Key functionalities will include user authentication, data encryption, smart contract-based access control, and audit trails. Focusing mostly on the core security and privacy features of the platform.
+
+
+\item{\textbf{Literature Survey:}}
+\newline
+\begin{enumerate}
+\item{Title - Blockchain-Empowered Trustworthy Data Sharing:
+Fundamentals, Applications, and Challenges (2023).}
+
+Authors - Linh T. Nguyen, Lam Duc Nguyen, Thong Hoang, Dilum Bandara,
+Qin Wang,  Qinghua Lu, Xiwei Xu, Liming Zhu, Petar Popovski, Fellow, IEEE, and Shiping Chen.
+
+DOI - 10.48550/arXiv.2303.06546
+
+Discusses how blockchain technology can enhance trustworthy data sharing. It addresses the issues of trust and privacy in data sharing, particularly in sectors like healthcare and finance. The authors proposed a framework that uses blockchain's decentralized nature and cryptography techniques to ensure data integrity, transparency, and security. The framework includes smart contracts to automate data access control and audit trails for tracking data usage. The paper also explores the challenges and potential solutions in implementing blockchain for data sharing, including scalability, interoperability, and regulatory compliance.
+
+\item{Title - A Secure Data Sharing Platform Using Blockchain
+and Interplanetary File System (2019).}
+
+Authors - Muqaddas Naz, Fahad A. Al-zahrani, Rabiya Khalid, Nadeem Javaid 1, Ali Mustafa Qamar, Muhammad Khalil Afzal and Muhammad Shafiq
+\newline
+DOI - https://doi.org/10.3390/su11247054
+
+The focus of paper is on creating a decentralized system where users can share data securely without relying on a central authority. The platform uses blockchain to ensure data integrity and immutability, while smart contracts manage data access and permissions. The authors discuss the design and implementation of the platform, including its architecture and security features. The paper also covers use cases, such as secure data sharing in healthcare and finance, and evaluates the platform's performance in terms of security, efficiency, and scalability.
+
+\item{Title - A Consent Model for Blockchain-Based
+Health Data Sharing Platforms (2020).}
+
+Authors - Vikas Jaiman and Visara Urovi
+
+DOI - 10.1109/ACCESS.2020.3014565
+
+This paper introduces a consent model for sharing health data using blockchain technology. The model aims to give individuals control over their health data by allowing them to specify consent preferences that are enforced through smart contracts on a blockchain. The model integrates two ontologies: the Data Use Ontology (DUO) for representing consent preferences and the Automatable Discovery and Access Matrix (ADA-M) for matching data requester purposes with individuals' consent. The authors implement the model on the Ethereum blockchain and evaluate its effectiveness in various data-sharing scenarios. The paper highlights the model's compliance with GDPR (General Data Protection Regulation) and its potential to enhance privacy and trust in health data sharing.
+
+\item{Title - A Survey of Blockchain-Based Schemes for Data Sharing and Exchange (2023).}
+
+Authors - Rui Song, Bin Xiao, Yubo Song, Songtao Guo and Yuanyuan Yang.
+
+DOI - 10.1109/TBDATA.2023.3293279
+
+
+Discusses how blockchain technology is applied to data sharing and exchange to solve issues like privacy leakage, high transaction costs, and lack of interoperability found in traditional centralized data platforms. The paper provides a detailed survey of blockchain-based data sharing and exchange platforms, including their system architectures, access control mechanisms, interoperability, and security aspects. It highlights the benefits of blockchain, such as decentralization, immutability, and transparency, which make it a suitable technology for various fields like IoT, finance, energy, and healthcare. Additionally, it reviews existing blockchain-based data marketplaces and discusses their trading processes, monetization strategies, and copyright protection measures.
+
+\item{Title - Subscription-Based Data-Sharing Model Using
+Blockchain and Data as a Service (2020).}
+
+Author - Fahad Ahmad Al-Zahrani.
+\newline
+DOI - 10.1109/ACCESS.2020.3002823
+
+Focuses on the implementation and analysis of blockchain-based data sharing systems. It emphasizes the importance of secure and efficient data sharing in the era of Big Data, where data is a valuable asset for commercial organizations, government departments, and researchers. The paper explores various blockchain architectures, access control methods, and data interoperability solutions. It also addresses the challenges of data storage, security, and privacy in blockchain-based systems. The study includes a review of influential blockchain-based data sharing schemes since 2015 and provides insights into their design principles, technical solutions, and application scenarios.
+
+\end{enumerate}
+
+\item{\textbf{Software and Hardware Requirement of the Project:}}
+
+\textit{Software:}
+\begin{enumerate}
+\item{Operating System - Windows 7/8/10 / Linux / Mac}
+\item{Front-end Frameworks - React.js ,Tailwind CSS}
+\item{Decentralized platform - eg.(Ethereum)}
+\item{API -eg( web3.js ,ether.js)}
+\item{Programming Languages - Solidity ,JavaScript}
+\end{enumerate}
+
+\textit{Hardware:}
+\begin{enumerate}
+\item{Ram :- 8GB}
+\item{Rom :- 256 GB ssd}
+\item{processor :- 3.0 GHZ}
+\end{enumerate}
+
+\item{\textbf{Contribution to Society:}}
+\newline
+The proposed platform will significantly enhance data security and privacy in the digital age. By providing a secure and transparent method for data sharing, the platform will reduce the risk of data breaches and unauthorized access, protecting sensitive information and user privacy. It will also promote trust in digital transactions and data sharing, fostering innovation and collaboration across various sectors.
+
+
+\item{\textbf{Probable Date of Project Completion:}} December 2024
+
+\item{\textbf{Outcome of the Project:}}
+\begin{enumerate}
+\item{A fully functional blockchain-based secure data sharing platform.}
+\item{Enhanced data security and privacy through decentralized mechanisms.}
+\item{Implementation of smart contracts for automated access control.}
+\end{enumerate}
+
+\end{itemize}
+
+\end{document}

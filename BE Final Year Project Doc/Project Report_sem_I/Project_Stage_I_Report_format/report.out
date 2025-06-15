@@ -1,0 +1,59 @@
+\BOOKMARK [0][-]{figure.caption.1}{Acknowledgment}{}% 1
+\BOOKMARK [0][-]{figure.caption.1}{Abstract}{}% 2
+\BOOKMARK [0][-]{figure.caption.1}{Synopsis}{}% 3
+\BOOKMARK [0][-]{figure.caption.1}{Abbreviation}{}% 4
+\BOOKMARK [0][-]{figure.caption.1}{List of Figures}{}% 5
+\BOOKMARK [0][-]{chapter*.2}{List of Tables}{}% 6
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 7
+\BOOKMARK [1][-]{section.1.1}{Project Idea}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.2}{Motivation of the Project}{chapter.1}% 9
+\BOOKMARK [0][-]{chapter.2}{Literature Survey}{}% 10
+\BOOKMARK [1][-]{section.2.1}{Literature Survey}{chapter.2}% 11
+\BOOKMARK [0][-]{chapter.3}{Problem Definition and Scope}{}% 12
+\BOOKMARK [1][-]{section.3.1}{Problem Statement}{chapter.3}% 13
+\BOOKMARK [2][-]{subsection.3.1.1}{Goals and objectives}{section.3.1}% 14
+\BOOKMARK [2][-]{subsection.3.1.2}{Statement of scope}{section.3.1}% 15
+\BOOKMARK [1][-]{section.3.2}{Software context}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.3}{Major Constraints}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.4}{Methodologies of Problem solving and efficiency issues}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.5}{Scenario in which multi-core, Embedded and Distributed Computing used}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.6}{Outcome}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.7}{Applications}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.8}{Hardware Resources Required}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.9}{Software Resources Required}{chapter.3}% 23
+\BOOKMARK [0][-]{chapter.4}{Software Requirement Specification }{}% 24
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 25
+\BOOKMARK [2][-]{subsection.4.1.1}{Purpose and Scope of Document}{section.4.1}% 26
+\BOOKMARK [2][-]{subsection.4.1.2}{Overview of responsibilities of Developer}{section.4.1}% 27
+\BOOKMARK [1][-]{section.4.2}{Functional Requirements}{chapter.4}% 28
+\BOOKMARK [2][-]{subsection.4.2.1}{System Feature 1\(Functional Requirement\)}{section.4.2}% 29
+\BOOKMARK [2][-]{subsection.4.2.2}{System Feature2 \(Functional Requirement\)}{section.4.2}% 30
+\BOOKMARK [2][-]{subsection.4.2.3}{System Feature3 \(Functional Requirement\)}{section.4.2}% 31
+\BOOKMARK [1][-]{section.4.3}{External Interface Requirements \(If Any\)}{chapter.4}% 32
+\BOOKMARK [2][-]{subsection.4.3.1}{User Interfaces}{section.4.3}% 33
+\BOOKMARK [2][-]{subsection.4.3.2}{Hardware Interfaces}{section.4.3}% 34
+\BOOKMARK [2][-]{subsection.4.3.3}{Software Interfaces}{section.4.3}% 35
+\BOOKMARK [2][-]{subsection.4.3.4}{ Communication Interfaces}{section.4.3}% 36
+\BOOKMARK [1][-]{section.4.4}{Nonfunctional Requirements}{chapter.4}% 37
+\BOOKMARK [2][-]{subsection.4.4.1}{Performance Requirements}{section.4.4}% 38
+\BOOKMARK [2][-]{subsection.4.4.2}{Safety Requirements}{section.4.4}% 39
+\BOOKMARK [2][-]{subsection.4.4.3}{Security Requirements }{section.4.4}% 40
+\BOOKMARK [2][-]{subsection.4.4.4}{Software Quality Attributes }{section.4.4}% 41
+\BOOKMARK [1][-]{section.4.5}{System Requirements }{chapter.4}% 42
+\BOOKMARK [2][-]{subsection.4.5.1}{Database Requirements}{section.4.5}% 43
+\BOOKMARK [1][-]{section.4.6}{Analysis Models: SDLC Model to be applied}{chapter.4}% 44
+\BOOKMARK [1][-]{section.4.7}{System Implementation Plan:}{chapter.4}% 45
+\BOOKMARK [0][-]{chapter.5}{System Design}{}% 46
+\BOOKMARK [1][-]{section.5.1}{System Architecture}{chapter.5}% 47
+\BOOKMARK [1][-]{section.5.2}{Data Flow Diagrams}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.3}{Entity Relationship Diagrams\)}{chapter.5}% 49
+\BOOKMARK [1][-]{section.5.4}{UML Diagrams}{chapter.5}% 50
+\BOOKMARK [0][-]{chapter.6}{Other Specification}{}% 51
+\BOOKMARK [1][-]{section.6.1}{Advantages}{chapter.6}% 52
+\BOOKMARK [1][-]{section.6.2}{Limitations}{chapter.6}% 53
+\BOOKMARK [1][-]{section.6.3}{Applications}{chapter.6}% 54
+\BOOKMARK [0][-]{chapter.7}{Summary and Conclusion}{}% 55
+\BOOKMARK [0][-]{chapter.8}{References}{}% 56
+\BOOKMARK [0][-]{appendix.1.A}{Annexure Problem Statement Feasibility}{}% 57
+\BOOKMARK [0][-]{appendix.1.B}{Annexure Details of the Papers Referred}{}% 58
+\BOOKMARK [0][-]{appendix.1.C}{Annexure Plagiarism Report For this Report}{}% 59

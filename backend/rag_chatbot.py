@@ -25,7 +25,8 @@ app.add_middleware(
 )
 
 # Path to the documentation file
-DOC_PATH = r"D:\final-year-project\frontend\src\components\BlockShare_Documentation.md"
+DOC_PATH = r"D:\project\Final\frontend\src\components\BlockShare_Documentation.md"
+
 
 def load_markdown_document():
     """Reads the Markdown file containing BlockShare documentation."""
